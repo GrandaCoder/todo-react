@@ -1,0 +1,14 @@
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+.TodoSearch:focus{
+    outline-color: rgb(0, 47, 255);
+}
