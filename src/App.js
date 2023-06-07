@@ -15,7 +15,7 @@ const todoDefault = [
   },
   {
     id: 2,
-    text: 'la tarea de ingles isisisisi',
+    text: 'la tarea de ingles',
     done: true
   },
   {
@@ -27,6 +27,10 @@ const todoDefault = [
     id: 4,
     text: 'Repasar duolingo',
     done: true
+  },{
+    id: 5,
+    text: 'Estudiar React',
+    done: false
   }
 ]
 //
