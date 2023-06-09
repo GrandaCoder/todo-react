@@ -18,22 +18,6 @@ li span{
 }
 /* ... estilos anteriores */
 
-.span-icon-close{
-    color: rgb(255, 98, 98);
-    position: absolute;
-    font-size: 1.5rem;
-    right: -30px;
-    top: -30px;
-}
-
-.span-icon-done{
-    color: rgb(21, 255, 0);
-}
-
-.span-icon-uncompleted{
-    color: rgb(164, 165, 164);
-}
-
 .todoItem-p--completed{
     text-decoration: line-through;
 }

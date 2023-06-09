@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
+import './DeleteIcon.css';
 
 function DeleteIcon({ onClick }) {
     return (

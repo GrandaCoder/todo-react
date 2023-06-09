@@ -1,0 +1,12 @@
+.span-icon-close{
+    color: rgb(65, 63, 63);
+    position: absolute;
+    font-size: 1.5rem;
+    right: -30px;
+    top: -30px;
+}
+
+.span-icon-close:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}

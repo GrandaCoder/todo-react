@@ -1,10 +1,11 @@
 import { ImRadioChecked , ImRadioUnchecked} from "react-icons/im";
+import './CompleteIcon.css';
 
 function CompleteIcon({ done, onClick }) {
     const iconSelected = done ? <ImRadioChecked /> : <ImRadioUnchecked />;
     return (
         <span
-            className={done ? 'span-icon-done' : 'span-icon-uncompleted'}
+            className= {'span-icon ' + (done ? 'span-icon-done' : 'span-icon-uncompleted')}
             onClick={onClick}>
             {iconSelected}
         </span>

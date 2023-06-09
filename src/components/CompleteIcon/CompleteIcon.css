@@ -1,0 +1,11 @@
+.span-icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.span-icon-done{
+    color: green;
+}
+
+.span-icon-uncompleted{
+    color: rgb(164, 165, 164);
+}
