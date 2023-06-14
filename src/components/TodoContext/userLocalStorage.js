@@ -54,3 +54,35 @@ function useLocalStorage(itemName, initialValue) {
   export{
       useLocalStorage
   }
+
+
+
+// const todoDefault = [
+//   {
+//     id: 1,
+//     text: 'Cortar cebolla',
+//     done: false
+//   },
+//   {
+//     id: 2,
+//     text: 'la tarea de ingles',
+//     done: true
+//   },
+//   {
+//     id: 3,
+//     text: 'Estados derivados',
+//     done: false
+//   },
+//   {
+//     id: 4,
+//     text: 'Repasar duolingo',
+//     done: true
+//   },{
+//     id: 5,
+//     text: 'Estudiar React',
+//     done: false
+//   }
+// ]
+
+// localStorage.setItem('todos_v1', JSON.stringify(todoDefault));
+// localStorage.removeItem('todos_v1');
