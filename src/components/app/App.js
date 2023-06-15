@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppUI } from './AppUI';
-import { TodoProvider } from '../TodoContext/TodoContext';
+import { TodoProvider } from '../Context/TodoContext';
 function App() {
   return (
     <TodoProvider>

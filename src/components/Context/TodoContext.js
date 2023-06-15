@@ -11,6 +11,7 @@ function TodoProvider({ children }) {
         loading,
         error } = useLocalStorage('todos_v1', []);
 
+
     const [searchValue, setSearchValue] = React.useState('');
     const todosFiltered = todos.filter(todo => {
         const textoAnalizado = todo.text.toLowerCase();
@@ -21,6 +22,7 @@ function TodoProvider({ children }) {
     const numberOfDoneTodos = todos.filter(todo => todo.done).length;
     const totalTodos = todos.length;
 
+    const [openModal, setOpenModal] = React.useState(true);
 
     return (
         <TodoContext.Provider value={{
@@ -33,7 +35,9 @@ function TodoProvider({ children }) {
             numberOfDoneTodos,
             totalTodos,
             loading,
-            error
+            error,
+            openModal,
+            setOpenModal
         }}>
             {children}
         </TodoContext.Provider>
