@@ -22,7 +22,7 @@ function TodoProvider({ children }) {
     const numberOfDoneTodos = todos.filter(todo => todo.done).length;
     const totalTodos = todos.length;
 
-    const [openModal, setOpenModal] = React.useState(true);
+    const [openModal, setOpenModal] = React.useState(false);
 
     return (
         <TodoContext.Provider value={{

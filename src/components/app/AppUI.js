@@ -49,7 +49,10 @@ function AppUI() {
       {
         openModal && (
           <Modal>
-            la funcionalidad de agregar todo
+            <div className="modalContent">
+              <h1>Title</h1>
+              <p>Content</p>
+            </div>
           </Modal>
         )
       }

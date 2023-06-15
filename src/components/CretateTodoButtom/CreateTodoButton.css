@@ -11,6 +11,7 @@ button{
     bottom: 0;
     right: 0;
     border: none;
+    z-index: 10;
 }
 button:hover{
     cursor: pointer;
