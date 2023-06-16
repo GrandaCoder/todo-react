@@ -9,6 +9,7 @@ import { EmptyTodos } from '../EmptyTodos/EmptyTodos';
 import React from 'react';
 import { Modal } from '../Modal/Modal';
 import { TodoContext } from '../Context/TodoContext';
+import { TodoForm } from '../TodoForm/TodoForm';
 
 
 function AppUI() {
@@ -49,10 +50,7 @@ function AppUI() {
       {
         openModal && (
           <Modal>
-            <div className="modalContent">
-              <h1>Title</h1>
-              <p>Content</p>
-            </div>
+            <TodoForm />
           </Modal>
         )
       }

@@ -1,0 +1,57 @@
+.formContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+}
+
+textarea{
+    resize: none;
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    outline: none;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    min-width: 6rem;
+}
+
+.btn-add{
+    color: #fff;
+    background-color: green;    
+    margin: 0 0.5rem;
+}
+.btn-cancel{
+    color: #fff;
+    background-color: red;
+    margin: 0 0.5rem;
+}

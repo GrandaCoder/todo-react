@@ -9,7 +9,9 @@ function TodoProvider({ children }) {
         completeItem: completeTodo,
         deleteItem: deleteTodo,
         loading,
-        error } = useLocalStorage('todos_v1', []);
+        error,
+        addTodo
+    } = useLocalStorage('todos_v1', []);
 
 
     const [searchValue, setSearchValue] = React.useState('');
@@ -37,7 +39,8 @@ function TodoProvider({ children }) {
             loading,
             error,
             openModal,
-            setOpenModal
+            setOpenModal,
+            addTodo
         }}>
             {children}
         </TodoContext.Provider>

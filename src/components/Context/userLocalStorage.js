@@ -22,6 +22,12 @@ function useLocalStorage(itemName, initialValue) {
       localStorage.setItem(itemName, JSON.stringify(newItem));
       setItem(newItem);
     }
+
+    const addTodo = (text) => {
+      const newItem = [...item, { id: Date.now(), text, done: false }];
+      localStorage.setItem(itemName, JSON.stringify(newItem));
+      setItem(newItem);
+    }
   
     React.useEffect(() => {
         setTimeout(() => {
@@ -47,7 +53,8 @@ function useLocalStorage(itemName, initialValue) {
       completeItem,
       deleteItem,
       loading,
-      error
+      error,
+      addTodo
     }
   }
   

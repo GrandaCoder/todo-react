@@ -5,7 +5,7 @@ import './CreateTodoButton.css';
 function CreateTodoButton() {
     const {openModal, setOpenModal } = React.useContext(TodoContext);
     return (
-        <button onClick={
+        <button className="createTodoButton" onClick={
             (event) => {
                 setOpenModal(!openModal);
                 // console.log('clicked');
