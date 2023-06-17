@@ -26,17 +26,17 @@ function TodoForm() {
     }
 
     const onClick = () => {
-        addTodo(newTodo);
+        if (newTodo.trim().length > 0) addTodo(newTodo);
     }
 
     return (
         <div className="formContent">
             <form onSubmit={onSubmit}>
-                <label>What needs to be done?</label>
-                <textarea placeholder='What needs to be done' value={newTodo} onChange={onChange} />
+                <label>Qué tarea quieres agregar?</label>
+                <textarea placeholder='Escribe tu tarea aquí' value={newTodo} onChange={onChange} required/>
                 <div className='todoForm--btnContainer'>
-                    <button className='btn btn-cancel' onClick={onCalcel}>Cancel</button>
-                    <button className='btn btn-add' onClick={onClick}>Add</button>
+                    <button className='btn btn-cancel' onClick={onCalcel}>Cancelar</button>
+                    <button className='btn btn-add' onClick={onClick}>Agregar</button>
                 </div>
             </form>
         </div>

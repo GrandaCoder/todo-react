@@ -47,11 +47,11 @@ textarea{
 
 .btn-add{
     color: #fff;
-    background-color: green;    
+    background-color: #78D29C;    
     margin: 0 0.5rem;
 }
 .btn-cancel{
-    color: #fff;
-    background-color: red;
+    color: #000000;
+    background-color:transparent;
     margin: 0 0.5rem;
 }

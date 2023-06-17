@@ -1,8 +1,9 @@
-import { ImRadioChecked , ImRadioUnchecked} from "react-icons/im";
+import { MdOutlineCheckCircleOutline , MdRadioButtonUnchecked} from "react-icons/md";
 import './CompleteIcon.css';
 
+
 function CompleteIcon({ done, onClick }) {
-    const iconSelected = done ? <ImRadioChecked /> : <ImRadioUnchecked />;
+    const iconSelected = done ? <MdOutlineCheckCircleOutline /> : <MdRadioButtonUnchecked />;
     return (
         <span
             className= {'span-icon ' + (done ? 'span-icon-done' : 'span-icon-uncompleted')}

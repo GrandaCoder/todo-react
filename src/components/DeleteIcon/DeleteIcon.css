@@ -1,9 +1,9 @@
 .span-icon-close{
-    color: rgb(65, 63, 63);
+    color: rgb(255, 255, 255);
     position: absolute;
     font-size: 1.5rem;
-    right: -30px;
-    top: -30px;
+    right: 5px;
+    top: 5px;
 }
 
 .span-icon-close:hover{

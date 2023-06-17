@@ -1,6 +1,11 @@
+import character from '../../img/character.webp';
+import './EmptyTodos.css'
+
 function EmptyTodos(){
     return (
-        <p>Crea tu primer TODO</p>
+        <>
+        <img src={character} alt="character"/>
+        </>
     )
 }
 

@@ -1,21 +1,25 @@
 li{
     display: flex;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, #3186a8, #92c57a);
     box-shadow: 0 0 10px rgba(112, 110, 110, 0.5);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 100%;
-    /* justify-content: center; */
     font-weight: 600;
     margin-top: 1rem;
     border-radius: 0.5rem; 
-    position: relative;  
+    position: relative;
+    padding: 1rem 0;  
+
 }
 
+.todoItem--completed{
+    background-image: linear-gradient(45deg, #acb1b3, #9ca09a);
+    color: rgb(0, 0, 0);
+    filter: blur(1px);
 
-li span{
-    padding: 2rem;
 }
+
 /* ... estilos anteriores */
 
 .todoItem-p--completed{
