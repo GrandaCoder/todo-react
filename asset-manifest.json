@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todo-react/static/css/main.9bae0edc.css",
+    "main.js": "/todo-react/static/js/main.0b6e70b3.js",
+    "static/media/character.webp": "/todo-react/static/media/character.a35310d2b62379d138b2.webp",
+    "index.html": "/todo-react/index.html",
+    "main.9bae0edc.css.map": "/todo-react/static/css/main.9bae0edc.css.map",
+    "main.0b6e70b3.js.map": "/todo-react/static/js/main.0b6e70b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bae0edc.css",
+    "static/js/main.0b6e70b3.js"
+  ]
+}
